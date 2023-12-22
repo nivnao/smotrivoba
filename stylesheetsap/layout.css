@@ -190,6 +190,9 @@
     transform: rotateZ(-150deg);
     animation: dropping9 3s infinite ease-out;
 }
+.object:hover {
+    animation-play-state: paused;
+}
 /* блок с глазами */
 .eyes {
     position: relative;
@@ -301,7 +304,7 @@
 
 /* буквы */
 .letters {
-    font-family: PP Neue Montreal;
+    font-family: 'PP Neue Montreal';
     font-weight: 500;
 }
 .l1,
@@ -554,7 +557,7 @@
 
 
 .smotrivoba p {
-    font-family: PP Neue Montreal;
+    font-family: 'PP Neue Montreal';
     font-weight: 700;
     font-size: 14vw;
     text-transform: uppercase;
@@ -588,7 +591,7 @@
 }
 .runp p {
     white-space: nowrap;
-    font-family: PP Neue Montreal;
+    font-family: 'PP Neue Montreal';
     font-weight: 500;
     font-size: 4.8vw;
     text-transform: uppercase;
@@ -792,7 +795,7 @@
     margin-left: 73px;
 }
 .name p {
-    font-family: PP Neue Montreal;
+    font-family: 'PP Neue Montreal';
     font-weight: 700;
     font-size: 40px;
     text-transform: uppercase;
