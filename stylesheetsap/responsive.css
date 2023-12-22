@@ -1,0 +1,20 @@
+/* адаптив для мобилки */
+@media only screen and (min-device-width: 360px) and (max-device-width: 768px) {
+    .screen1 {
+        flex-direction: column;
+        height: 50vh;
+    }
+    .leftpart {
+        height: 25vh;
+    }
+    .fragments {
+    height: 15%;
+    }
+    .eyes {
+        height: 5%;
+    }
+    .screen2 {
+        flex-direction: column;
+    }
+
+}

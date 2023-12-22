@@ -1,0 +1,800 @@
+.body {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+/* первый экран */
+.screen1 {
+    display: flex;
+    width: 100%;
+    height: 125vh;
+}
+.leftpart {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    height: 125vh;
+}
+
+/* блок с осоклками */
+.fragments {
+    overflow: hidden;
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 75vh;
+    background-color: #E7E7E7;
+}
+
+.element1 {
+    position: absolute;
+    left: 1%;
+    top: 15%;
+    animation: dropblack1 1.2s infinite ease-out;
+}
+.element2 {
+    position: absolute;
+    left: 13%;
+    top: 55%;
+    animation: dropblack2 1s infinite ease-in;
+}
+.element3 {
+    position: absolute;
+    left: 6%;
+    top: 0;
+    animation: dropblack3 3s infinite ease-in;
+}
+.element4 {
+    position: absolute;
+    left: 2.5%;
+    top: 67%;
+    animation: dropblack4 3.7s infinite ease-in;
+}
+.element5 {
+    position: absolute;
+    left: 14%;
+    top: 1.7%;
+    animation: dropblack5 2.5s infinite ease-in-out;
+}
+.element6 {
+    position: absolute;
+    left: 38%;
+    top: 7%;
+    animation: dropblack6 1.5s infinite ease-out;
+}
+.element7 {
+    position: absolute;
+    left: 24%;
+    top: 71%;
+    animation: dropblack7 3.4s infinite ease-out;
+}
+.element8 {
+    position: absolute;
+    left: 35%;
+    top: 65%;
+    animation: dropblack8 3s infinite ease-in-out;
+}
+.element9 {
+    position: absolute;
+    left: 47%;
+    top: 82%;
+    animation: dropblack9 2s infinite ease-in-out;
+}
+.element10 {
+    position: absolute;
+    left: 52%;
+    top: 36%;
+    animation: dropblack10 5s infinite ease-in-out;   
+}
+.element11 {
+    position: absolute;
+    left: 60%;
+    top: 70%;
+    animation: dropblack11 2s infinite ease-out;
+}
+.element12 {
+    position: absolute;
+    left: 57%;
+    animation: dropblack12 2.5s infinite ease-in-out;
+}
+.element13 {
+    position: absolute;
+    left: 67%;
+    top: 8%;
+    animation: dropblack13 5s infinite ease-in-out;
+}
+.element14 {
+    position: absolute;
+    left: 73%;
+    top: 58%;
+    animation: dropblack14 3.4s infinite ease-out;
+}
+.element15 {
+    position: absolute;
+    left: 86%;
+    top: 46%;
+    animation: dropblack3 2s infinite ease-out;
+}
+
+
+.gl1 {
+    position: absolute;
+    left: 6%;
+    top: 1%;
+    backdrop-filter: blur(5px);
+    transform: rotateZ(25deg);
+    animation: dropping1 5s infinite ease-out;
+}
+.gl2 {
+    position: absolute;
+    left: 9%;
+    top: 67%;
+    backdrop-filter: blur(4px);
+    /* transform: rotateZ(40deg); */
+    animation: dropping2 7s infinite ease-out;
+}
+.gl3 {
+    position: absolute;
+    left: 27%;
+    top: 42%;
+    backdrop-filter: blur(4px);
+    transform: rotateZ(150deg);
+    animation: dropping3 4s infinite ease-out;
+}
+.gl4 {
+    position: absolute;
+    left: 582px;
+    top: 209px;
+    backdrop-filter: blur(4px);
+    animation: dropping4 2.5s infinite ease-out;
+}
+.gl5 {
+    position: absolute;
+    left: 40%;
+    top: -25%;
+    backdrop-filter: blur(4px);
+    transform: rotateZ(27deg);
+    animation: dropping5 3s infinite ease-out;
+}
+.gl6 {
+    position: absolute;
+    left: 56%;
+    top: 28%;
+    backdrop-filter: blur(4px);
+    transform: rotateZ(160deg);
+    animation: dropping6 2s infinite ease-out;
+}
+.gl7 {
+    position: absolute;
+    left: 65%;
+    top: 57%;
+    backdrop-filter: blur(4px);
+    transform: rotateZ(-100deg);
+    animation: dropping7 3s infinite ease-out;
+}
+.gl8 {
+    position: absolute;
+    left: 70%;
+    top: -10%;
+    backdrop-filter: blur(4px);
+    transform: rotateZ(150deg);
+    animation: dropping8 2s infinite ease-out;
+}
+.gl9 {
+    position: absolute;
+    left: 87%;
+    top: 35%;
+    backdrop-filter: blur(4px);
+    transform: rotateZ(-150deg);
+    animation: dropping9 3s infinite ease-out;
+}
+/* блок с глазами */
+.eyes {
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 65vh;
+    background-color: #AEFF00;
+    overflow: hidden;
+}
+.eye1 {
+    position: absolute;
+    left: -3%;
+    top: 1%;
+    width: 13vw;
+    height: 23vh;
+    animation: eye1 1s alternate-reverse infinite;
+}
+
+.eye2 {
+    position: absolute;
+    left: 1%;
+    top: 9%;
+    width: 33vw;
+    height: 59vh;
+    animation: eye2 3s alternate-reverse ease-in-out infinite;
+}
+.eye2:hover {
+    animation-play-state: paused;
+}
+.eye3 {
+    position: absolute;
+    left: 33%;
+    top: -6%;
+    width: 22vw;
+    height: 39.5vh;
+    animation: eye3 1s alternate-reverse infinite;
+}
+.eye4 {
+    position: absolute;
+    left: 35%;
+    top: 68%;
+    width: 13vw;
+    height: 23vh;
+    animation: eye4 1.5s alternate-reverse infinite;
+}
+.eye5 {
+    position: absolute;
+    left: 52%;
+    top: 46%;
+    width: 14.5vw;
+    height: 26vh;
+    animation: eye5 2s alternate-reverse infinite;
+}
+.eye5:hover {
+    animation-play-state: paused;
+}
+.eye6 {
+    position: absolute;
+    left: 61%;
+    top: 11%;
+    width: 10.3vw;
+    height: 18.5vh;
+    animation: eye6 2s infinite linear;
+}
+.eye7 {
+    position: absolute;
+    left: 68%;
+    top: 27%;
+    width: 24.5vw;
+    height: 43.5vh;
+    animation: eye7 1s infinite linear;
+}
+.eye8 {
+    position: absolute;
+    left: 81%;
+    top: 2%;
+    width: 12vw;
+    height: 21.8vh;
+    animation: eye8 1s alternate infinite linear;
+}
+.eye8:hover {
+    animation-play-state: paused;
+}
+
+
+/* секция с буквами */
+.rightpart {
+    overflow: hidden;
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 25%;
+    height: 125vh;
+    background-color: #D9D9D9;
+}
+.backrounds img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    animation: scaleback 4s infinite linear;
+}
+.grid {
+    position: absolute;
+    left: 0;
+    width: 100%;
+}
+
+/* буквы */
+.letters {
+    font-family: PP Neue Montreal;
+    font-weight: 500;
+}
+.l1,
+.l2 {
+    font-size: 6.67vw;
+    animation: scale 2s alternate-reverse infinite;
+}
+
+.l3,
+.l4,
+.l5 {
+    font-size: 5vw;
+    animation: scale 2s alternate infinite;
+}
+
+.l6,
+.l7,
+.l8,
+.l9 {
+    font-size: 3.33vw;
+    animation: scale 1s alternate infinite;
+}
+
+.l10 {
+    font-size: 2.5vw;
+    animation: scale 1.5s alternate infinite;
+}
+
+.l1 {
+    position: absolute;
+    left: 26%;
+    top: 9%;
+}
+
+.l2 {
+    position: absolute;
+    left: 52%;
+    top: 27.7%;
+}
+.l3 {
+    position: absolute;
+    left: 7%;
+    top: 39%;
+}
+.l4 {
+    position: absolute;
+    left: 52%;
+    top: 39%;
+}
+.l5 {
+    position: absolute;
+    left: 86%;
+    top: 45.5%;
+}
+
+.l6 {
+    position: absolute;
+    left: 26%;
+    top: 50.2%;
+}
+.l7 {
+    position: absolute;
+    left: 25.5%;
+    top: 68.5%;
+}
+.l8{
+    position: absolute;
+    left: 77.4%;
+    top: 73.3%;
+}
+.l9 {
+    position: absolute;
+    left: 39%;
+    top: 87%;
+}
+.l10 {
+    position: absolute;
+    left: 92%;
+    top: 91.5%;
+}
+.l1 {
+    animation-delay: .25s;
+}
+.l3 {
+    animation-delay: .5s;
+}
+
+.l5 {
+    animation-delay: .9s
+}
+
+.l8 {
+    animation-delay: 1.3s
+}
+
+.l2 {
+    animation-delay: .7s
+}
+/* черные кляксы */
+.blackmarks {
+    top: 0;
+    left: 0;
+    position: relative;
+    width: 100%;
+    height: 125vh;
+}
+.liq {
+    position: absolute;
+    display: flex;
+    padding: 50%;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(0deg);
+    animation: liqrotate 15s linear infinite;
+    filter: blur(15px) contrast(10);
+}
+.liq:hover {
+    animation-play-state: paused;
+    animation: blowaway 1s linear;
+}
+.liquids {
+    background: #000;
+    width: 15vw;
+    height: 13vw;
+    border-radius: 50%;
+}
+
+.liquids:first-child,
+.liquids:last-child {
+    width: 20%;
+    height: 20%;
+}
+.liquids:nth-child(1),
+.liquids:nth-child(3),
+.liquids:nth-child(5),
+.liquids:nth-child(7),
+.liquids:nth-child(9) {
+    animation: pulse 1.5s ease-in-out infinite;
+}
+.leftSpin {
+    animation: leftspin 2.5s linear infinite;
+}
+.rightSpin {
+    animation: rightspin 2s linear infinite;
+}
+
+.liquids:nth-child(3) {
+    animation-delay: .25s;
+}
+.liquids:nth-child(5) {
+    animation-delay: .75s
+}
+.liquids:nth-child(7) {
+    animation-delay: 1s
+}
+.liquids:nth-child(9) {
+    animation-delay: .3s
+}
+
+.bm1 {
+    position: absolute;
+    left: 16%;
+    top: 8%;
+    animation: bm1-a 7s infinite linear ;
+    filter: blur(15px) contrast(10);
+}
+.bm1:hover {
+    animation-play-state: paused;
+    animation: blowaway 1s linear;
+}
+.bm2 {
+    position: absolute;
+    left: 16%;
+    top: 8%;
+    animation: bm2-a 8s infinite linear;
+    filter: blur(15px) contrast(10);
+}
+.bm2:hover {
+    animation-play-state: paused;
+    animation: blowaway 1s linear;
+}
+.bm3 {
+    position: absolute;
+    left: 0;
+    top: 5%;
+    animation: bm3-a 4s infinite linear;
+    filter: blur(15px) contrast(10);
+}
+.bm3:hover {
+    animation-play-state: paused;
+    animation: blowaway 1s ease-in-out;
+}
+
+/* второй экран */
+.screen2 {
+    display: flex;
+    width: 100%;
+    height: 98vh;
+}
+
+.visiontest {
+    width: 37.3%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.e1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+.e2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.e1:hover {
+    animation: opacity 1s forwards;
+}
+
+.smotrivoba {
+    width: 63.7%;
+    height: 98.2vh;
+    background-color: #AEFF00;
+    position: relative;
+    overflow: hidden;
+}
+
+.faceblock {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 8638px;
+    height: 98.2vh;
+    background-image: url(../img/faceblock.svg);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    animation: erase 2s steps(1) infinite;
+}
+
+
+.smotrivoba p {
+    font-family: PP Neue Montreal;
+    font-weight: 700;
+    font-size: 14vw;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 27vh 1.2vw;
+}
+
+/* третий экран */
+.screen3 {
+    width: 100%;
+    height: 90vh;
+    background-color: #E7E7E7;
+}
+
+.runline {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 20vh;
+    width: 100%;
+    background-color: #000;
+}
+
+.runp {
+    position: absolute;
+    top: 0;
+    margin-top: 3%;
+    display: flex;
+    overflow: hidden;
+    width: 105%;
+}
+.runp p {
+    white-space: nowrap;
+    font-family: PP Neue Montreal;
+    font-weight: 500;
+    font-size: 4.8vw;
+    text-transform: uppercase;
+    color: white;
+    animation: runline 4s linear infinite;
+    width: 100%;
+    margin-left: 1%;
+}
+
+
+.screenblocks3 {
+    display: flex;
+    width: 100%;
+}
+.pupils {
+    width: 53%;
+    height: 70vh;
+    position: relative;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+.pup1 {
+    position: absolute;
+    top: -2vw;
+    left: -8vw;
+    width: 28.6vw;
+    height: 51vh;
+    animation: pup1 2s infinite linear;
+}
+.pup2 {
+    position: absolute;
+    top: 16vw;
+    left: -4vw;
+    width: 28.6vw;
+    height: 51vh;
+    animation: pup2 2s infinite linear;
+}
+.pup3 {
+    position: absolute;
+    top: -15%;
+    left: 8%;
+    width: 33.6vw;
+    height: 60vh;
+    animation: pup2 2s infinite linear;
+}
+.pup4 {
+    position: absolute;
+    top: 55%;
+    left: 20%;
+    width: 24.7vw;
+    height: 44vh;
+    animation: pup1 3s infinite linear;
+}
+.pup5 {
+    position: absolute;
+    top: -25%;
+    left: 40%;
+    width: 29vw;
+    height: 51.5vh;
+    animation: pup2 2s infinite linear;
+}
+.pup6 {
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    width: 29vw;
+    height: 51.5vh;
+    animation: pup1 1.5s infinite linear;
+}
+.pup7 {
+    position: absolute;
+    top: 68%;
+    left: 51%;
+    width: 18.5vw;
+    height: 33vh;
+    animation: pup2 2s infinite linear;
+}
+.pup8 {
+    position: absolute;
+    top: -20%;
+    left: 70%;
+    width: 29vw;
+    height: 51.5vh;
+    animation: pup1 2s infinite linear;
+}
+.pup9 {
+    position: absolute;
+    top: 35%;
+    left: 70%;
+    width: 29.5vw;
+    height: 52.4vh;
+    animation: pup1 1.5s infinite linear;
+}
+
+.vessels {
+    position: relative;
+    top: 0;
+    left: 0;
+    background-color: #464646;
+    width: 57%;
+    overflow: hidden;
+    height: 70vh;
+}
+.backvessels {
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+.vessel1 {
+    z-index: 1;
+    position: absolute;
+    width: 52.3vw;
+    height: 70vh;
+    animation: translate 1s infinite linear;
+}
+.vessel2 {
+    z-index: 2;
+    position: absolute;
+    width: 52.3vw;
+    height: 70vh;
+    animation: scalevessel 3s infinite linear;
+}
+
+
+.roundinvert {
+    position: absolute;
+    top: 12%;
+    left: 15%;
+    width: 560px;
+    height: 560px;
+    opacity: 0.7;
+    color: #eeeeee;
+    z-index: 3;
+    animation: translate2 4s infinite linear;
+}
+.roundinvert:hover {
+    animation-play-state: paused;
+}
+
+/* четвертый экран */
+.screen4 {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+}
+.eye-aim {
+    width: 45%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: relative;
+    background-color: #AEFF00;
+}
+.eye {
+    position: absolute;
+    top: 12%;
+    left: 2%;
+}
+.aim{
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    backdrop-filter: blur(3px);
+}
+.glitchblock {
+    top: 0;
+    left: 0;
+    position: relative;
+    width: 55%;
+    height: 100%;
+    background-color: #D9D9D9;
+    overflow: hidden;
+}
+.back {
+    position: relative;
+    top: -10%;
+    left: -5%;
+}
+.glitch {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* подвал */
+.bottom {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+}
+.name {
+    width: 23%;
+    margin-right: 73px;
+}
+.logo {
+    margin-left: 73px;
+}
+.name p {
+    font-family: PP Neue Montreal;
+    font-weight: 700;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: white;
+}

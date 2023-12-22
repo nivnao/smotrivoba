@@ -1,0 +1,664 @@
+/* анимации для падения матовых осколков  */
+@keyframes dropping1 {
+    0% {
+        top: -50%;
+    }
+
+    60% {
+        transform: rotate(60deg);
+    }
+
+    100% {
+        top: 100%;
+        transform: rotate(90deg)
+    }
+}
+
+@keyframes dropping2 {
+    0% {
+        top: -50%;
+    }
+
+    70% {
+        transform: rotate(-70deg);
+    }
+
+    100% {
+        top: 100%;
+        transform: rotate(-180deg);
+    }
+}
+
+@keyframes dropping3 {
+    0% {
+        top: -80%;
+    }
+
+    70% {
+        transform: rotate(-45deg);
+    }
+
+    100% {
+        top: 100%;
+        transform: rotate(-90deg);
+    }
+}
+@keyframes dropping4 {
+    0% {
+        top: -50%;
+    }  
+    
+    60% {
+        transform: rotate(60deg);
+    }
+    
+    100% {
+        top: 100%;
+        transform: rotate(90deg)
+    }
+}
+@keyframes dropping5 {
+    0% {
+        top: -50%;
+    }
+
+    60% {
+        transform: rotate(90deg);
+    }
+
+    100% {
+        top: 100%;
+        transform: rotate(180deg)
+    }
+}
+@keyframes dropping6 {
+    0% {
+        top: -50%;
+    }
+
+    20% {
+        transform: rotate(-150deg);
+    }
+
+    50% {
+        transform: rotate(-190deg)
+    }
+    100% {
+        top: 100%;
+        transform: rotate(100deg)
+    }
+}
+@keyframes dropping7 {
+    0% {
+        top: -50%;
+    }
+
+    20% {
+        transform: rotate(90deg);
+    }
+
+    100% {
+        top: 100%;
+        transform: rotate(200deg)
+    }
+}
+@keyframes dropping8 {
+    0% {
+        top: -50%;
+    }
+    30% {
+        transform: rotate(-70deg);
+    }
+    70% {
+        transform: rotate(90deg);
+    }
+
+    100% {
+        top: 100%;
+        transform: rotate(180deg)
+    }
+}
+@keyframes dropping9 {
+    0% {
+        top: -50%;
+    }
+
+    10% {
+        transform: rotate(-100deg);
+    }
+
+    70% {
+        transform: rotate(90deg);
+    }
+
+    100% {
+        top: 100%;
+        transform: rotate(150deg)
+    }
+}
+
+/* анимации для падения черных элементов */
+
+@keyframes dropblack1 {
+    0% {
+        top: -20%;
+    }
+
+    10% {
+        transform: rotate(20deg);
+    }
+
+    90%{
+        top: 100%;
+        transform: rotate(-90deg)
+    }
+    100%{
+        top: 100%;
+        transform: rotate(90deg)
+    }
+}
+@keyframes dropblack2 {
+    0% {
+        top: -25%;
+    }
+    10% {
+        transform: rotate(-10deg);
+    }
+    40% {
+        transform: rotate(-30deg);
+    }
+
+    100% {
+        top: 100%;
+        transform: rotate(-70deg);
+    }
+}
+@keyframes dropblack3 {
+    0% {
+        top: -30%;
+    }
+    30% {
+        transform: rotate(10deg);
+    }
+
+    100% {
+        top: 100%;
+        transform: rotate(80deg);
+    }
+}
+@keyframes dropblack4 {
+    0% {
+        top: -30%;
+    }
+
+    50% {
+        transform: rotate(-30deg);
+    }
+
+    100% {
+        top: 100%;
+        transform: rotate(-90deg);
+    }
+}
+@keyframes dropblack5 {
+    0% {
+        top: -60%;
+        transform: rotate(10deg);
+    }
+    80% {
+        transform: translate(60%);
+        transform: rotate(100deg);
+    }
+
+    100% {
+        top: 100%;
+        transform: rotate(80deg);
+    }
+}
+@keyframes dropblack6 {
+    0% {
+        top: -28%;
+        transform: rotate(10deg);
+    }
+
+    80% {
+        transform: translate(60%);
+        transform: rotate(100deg);
+    }
+
+    100% {
+        top: 100%;
+    }
+
+}
+@keyframes dropblack7 {
+    0% {
+        top: -10%;
+        transform: rotate(10deg);
+    }
+    100% {
+        top: 100%;
+        transform: rotate(-90deg);
+    }
+}
+@keyframes dropblack8 {
+    0% {
+        top: -40%;
+        transform: rotate(-10deg);
+    }
+    
+    50% {
+        transform: rotate(-100deg);
+    }
+
+    100% {
+        top: 100%;
+    }
+}
+@keyframes dropblack9 {
+    0% {
+        top: -25%;
+    }
+
+    50% {
+        transform: rotate(-30deg);
+    }
+
+    100% {
+        top: 100%;
+        transform: rotate(-90deg);
+    }
+}
+@keyframes dropblack10 {
+    0% {
+        top: -20%;
+        transform: rotate(10deg);
+    }
+
+    60% {
+        transform: rotate(-200deg);
+    }
+    100% {
+        top: 100%;
+        transform: rotate(-100deg);
+    }
+}
+@keyframes dropblack11 {
+    0% {
+        top: -20%;
+    }
+
+    40% {
+        transform: rotate(90deg);
+    }
+    80% {
+        transform: rotate(20deg);
+    }
+
+    100% {
+        top: 100%;
+        transform: rotate(90deg);
+    }
+}
+@keyframes dropblack12 {
+    0% {
+        top: -40%;
+        transform: rotate(-10deg);
+    }
+
+    50% {
+        transform: rotate(-100deg);
+    }
+
+    100% {
+        top: 100%;
+    }
+}
+@keyframes dropblack13 {
+    0% {
+        top: -40%;
+    }
+
+    70% {
+        transform: rotate(80deg);
+    }
+
+    100% {
+        top: 100%;
+        transform: rotate(-20deg);
+    }
+}
+@keyframes dropblack14 {
+    0% {
+        top: -40%;
+    }
+
+    100% {
+        top: 100%;
+        transform: rotate(80deg);
+    }
+}
+@keyframes dropblack15 {
+    0% {
+        top: -40%;
+    }
+
+    60% {
+        transform: rotate(90deg);
+    }
+
+    100% {
+        top: 100%;
+        transform: rotate(15deg);
+    }
+}
+
+/* анимации вращения глаз */
+@keyframes eye1 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(240deg)
+    }
+
+}
+@keyframes eye2 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg)
+    }
+
+}
+@keyframes eye3 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(-150deg)
+    }
+
+}
+@keyframes eye4 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(160deg)
+    }
+
+}
+@keyframes eye5 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(280deg)
+    }
+
+}
+@keyframes eye6 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg)
+    }
+
+}
+@keyframes eye7 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(-360deg)
+    }
+
+}
+@keyframes eye8 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg)
+    }
+
+}
+
+/* анимация черных пятен */
+
+@keyframes pulse {
+    0% {transform: scale(1);}
+    50% {transform: scale(1.9);}
+    70% {transform: scale(0.6);}
+    100% {transform: scale(1);}  
+}
+
+@keyframes leftspin {
+    from {
+        transform: rotate(0deg) translateX(40%);
+    }
+    to {
+        transform: rotate(360deg) translateX(10%);
+    }
+    
+}
+@keyframes rightspin {
+    from {
+        transform: rotate(360deg) translateX(10%);
+    }
+
+    to {
+        transform: rotate(0deg) translateX(20%);
+    }
+}
+@keyframes liqrotate {
+    from {
+        top: 0;
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+    to {
+        top: 100%;
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+}
+@keyframes bm1-a {
+    0% { 
+        top: 0;
+        transform: scale(2) rotate(0deg);
+    }
+    50% {transform: translate(50%, 20%) scale(0.5) rotate(40deg);}
+    70% {transform: scale(2);}
+    100% {
+        top: 100%;
+        transform: scale(2) rotate(-20deg); 
+    }  
+}
+@keyframes bm2-a {
+    0% {
+        top: -50%;
+        transform: scale(2) rotate(0deg);
+    }
+
+    50% {
+        transform: translate(70%, 20%) scale(1) rotate(40deg);
+    }
+
+    70% {
+        transform: scale(2.8);
+    }
+
+    100% {
+        top: 150%;
+        transform: scale(3) rotate(-80deg);
+    }
+}
+@keyframes bm3-a {
+    0% {
+        top: -30%;
+        transform: scale(2) rotate(0deg);
+    }
+    100% {
+        top: 40;
+        transform: translate(-90%, 50%) rotate(180deg);
+    }
+}
+@keyframes blowaway {
+    0% { 
+        top: -10%;
+        left: 10%;
+        transform: translate(-100%,-100%);
+    }
+    50% {
+        top: 50%;
+        left: 100%;
+        transform: translate(200%,-100%);
+    }
+    100% {
+        transform: translate(-200%,-200%);
+    }
+}
+ /* анимация букв */
+ @keyframes scale {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(3);
+    }
+    
+}
+
+/* анимация бэка букв */
+@keyframes scaleback {
+    from {
+        transform: scale(1.5) rotate(0deg);
+    }
+    to {
+        transform: scale(4) rotate(360deg);
+    }
+    
+}
+
+/* анимация увеличения резкости */
+@keyframes opacity {
+    0% {
+         opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+} 
+/* анимация стирания слоя*/
+@keyframes erase {
+    0% {
+        background-position: 0 0,
+    }
+    14.3% {
+        background-position: -1234px 0;
+    }
+    27.6% {
+        background-position: -2468px 0;
+    }
+    42.9% {
+        background-position: -3702px 0;
+    }
+    57.2% {
+        background-position: -4936px 0;
+    }
+    71.5%  {
+        background-position: -6170px 0;
+    }
+    85.8%  {
+        background-position: -7404px 0;
+    }
+}
+
+/* анимация бегущая строка */
+
+@keyframes runline {
+    0% {
+        transform: translateX(-101%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+/* анимация зрачков */
+@keyframes pup1 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg)
+    }
+
+}
+@keyframes pup2 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(-360deg)
+    }
+
+}
+
+/* анимация сосудов */
+@keyframes scalevessel {
+    from {
+        transform: scale(1.5) translate(-20%, 10%);
+    }
+
+    to {
+        transform: scale(5) translate(-30%, -10%); 
+    }
+}
+@keyframes translate{
+    0% {
+        transform: translate(2%, 2%);
+    }
+
+    50% {
+        transform: translate(6%, 0);
+    }
+    100% {
+        transform: translate(1%, 6%);
+    }
+}
+@keyframes translate2 {
+    0% {
+        transform: translate(50%, 40%);
+    }
+    20% {
+        transform: translate(0, 0);
+    }
+    30% {
+        transform: translate(-30%, 10%);
+    }
+
+    50% {
+        transform: translate(-10%, 30%);
+    }
+    70% {
+        transform: translate(-15%,-20%);
+    }
+
+    100% {
+        transform: translate(50%, 20%);
+    }
+}
