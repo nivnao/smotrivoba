@@ -3,7 +3,7 @@
 @import url('layout.css');
 @import url('animation.css');
 @font-face {
-    font-family: PP Neue Montreal;
+    font-family: 'PP Neue Montreal';
     font-style: normal;
     font-weight: 500;
     font-display: swap;
@@ -11,7 +11,7 @@
 }
 
 @font-face {
-    font-family: PP Neue Montreal;
+    font-family: 'PP Neue Montreal';
     font-style: normal;
     font-weight: 700;
     font-display: swap;
