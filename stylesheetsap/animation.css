@@ -16,7 +16,7 @@
 
 @keyframes dropping2 {
     0% {
-        top: -50%;
+        top: -110%;
     }
 
     70% {
@@ -517,15 +517,15 @@
     0% { 
         top: -10%;
         left: 10%;
-        transform: translate(-100%,-100%);
+        transform: translate(-50%,-100%);
     }
     50% {
         top: 50%;
         left: 100%;
-        transform: translate(200%,-100%);
+        transform: translate(100%,-100%);
     }
     100% {
-        transform: translate(-200%,-200%);
+        transform: translate(-50%,-200%);
     }
 }
  /* анимация букв */
@@ -550,38 +550,30 @@
     
 }
 
-/* анимация увеличения резкости */
-@keyframes opacity {
-    0% {
-         opacity: 1;
-    }
-    100% {
-        opacity: 0;
-    }
-} 
+
 /* анимация стирания слоя*/
 @keyframes erase {
     0% {
         background-position: 0 0,
     }
     14.3% {
-        background-position: -1234px 0;
+        background-position: -63.2vw 0;
     }
-    27.6% {
-        background-position: -2468px 0;
+    28.6% {
+        background-position: -125.5vw 0;
     }
     42.9% {
-        background-position: -3702px 0;
-    }
+        background-position: -187.7vw 0;
+    } 
     57.2% {
-        background-position: -4936px 0;
+        background-position: -249.9vw 0;
     }
     71.5%  {
-        background-position: -6170px 0;
+        background-position: -312.1vw 0;
     }
     85.8%  {
-        background-position: -7404px 0;
-    }
+        background-position: -374.4vw 0;
+    } 
 }
 
 /* анимация бегущая строка */
@@ -642,23 +634,76 @@
 }
 @keyframes translate2 {
     0% {
-        transform: translate(50%, 40%);
+        transform: translate(30%, 12%);
     }
     20% {
-        transform: translate(0, 0);
+        transform: translate(0, -20%);
     }
     30% {
-        transform: translate(-30%, 10%);
+        transform: translate(-30%, -10%);
+    }
+
+    60% {
+        transform: translate(25%, -20%);
+    }
+    80% {
+        transform: translate(45%, 0);
+    }
+    100% {
+        transform: translate(30%, 12%);
+    }
+}
+
+@keyframes eyerun {
+    0% {
+        transform: translate(-10%, 0);
+    }
+    25% {
+        transform: translate(50%, -30%);
+    }
+    50% {
+        transform: translate(30%, 60%);
+    }
+    100% {
+        transform: translate(-10%, 0);
+    }
+}
+@keyframes aimrun {
+    0% {
+        transform: translate(-40%, 0);
+    }
+    25% {
+        transform: translate(50%, -50%);
+    }
+    50% {
+        transform: translate(30%, 50%);
+    }
+    100% {
+        transform: translate(-40%, 0);
+    }
+}
+
+@keyframes glitch {
+    0% {
+        transform: translate (0 0);
+    }
+    50% {
+        transform: translate(-1%, 0);
+    }
+    100% {
+        transform: translate(0 0);
+    }
+}
+@keyframes glitch2 {
+    0% {
+        transform: translate (0 0);
     }
 
     50% {
-        transform: translate(-10%, 30%);
-    }
-    70% {
-        transform: translate(-15%,-20%);
+        transform: translate(-2.5%, 0);
     }
 
     100% {
-        transform: translate(50%, 20%);
+        transform: translate(0 0);
     }
 }

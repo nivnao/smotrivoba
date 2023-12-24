@@ -8,13 +8,15 @@
 .screen1 {
     display: flex;
     width: 100%;
-    height: 125vh;
+    height: 70vw;
+    margin: 0 auto;
+    overflow: hidden;
 }
 .leftpart {
     display: flex;
     flex-direction: column;
     width: 75%;
-    height: 125vh;
+    height: 70vw;
 }
 
 /* блок с осоклками */
@@ -24,7 +26,7 @@
     left: 0;
     top: 0;
     width: 100%;
-    height: 75vh;
+    height: 56%;
     background-color: #E7E7E7;
 }
 
@@ -32,114 +34,177 @@
     position: absolute;
     left: 1%;
     top: 15%;
+    width: 9vw;
+    height: 9vw;
+    background-image: url(../img/element1.svg);
+    background-size: 100% 100%;
     animation: dropblack1 1.2s infinite ease-out;
 }
 .element2 {
     position: absolute;
     left: 13%;
     top: 55%;
+    width: 6vw;
+    height: 6vw;
+    background-image: url(../img/element2.svg);
+    background-size: 100% 100%;
     animation: dropblack2 1s infinite ease-in;
 }
 .element3 {
     position: absolute;
     left: 6%;
     top: 0;
+    width: 9.6vw;
+    height: 9.6vw;
+    background-image: url(../img/element3.svg);
+    background-size: 100% 100%;
     animation: dropblack3 3s infinite ease-in;
 }
 .element4 {
     position: absolute;
     left: 2.5%;
     top: 67%;
+    width: 9vw;
+    height: 9vw;
+    background-image: url(../img/element4.svg);
+    background-size: 100% 100%;
     animation: dropblack4 3.7s infinite ease-in;
 }
 .element5 {
     position: absolute;
     left: 14%;
     top: 1.7%;
+    width: 21.7vw;
+    height: 21.7vw;
+    background-image: url(../img/element5.svg);
+    background-size: 100% 100%;
     animation: dropblack5 2.5s infinite ease-in-out;
 }
 .element6 {
     position: absolute;
     left: 38%;
     top: 7%;
+    width: 10vw;
+    height: 10vw;
+    background-image: url(../img/element6.svg);
+    background-size: 100% 100%;
     animation: dropblack6 1.5s infinite ease-out;
 }
 .element7 {
     position: absolute;
     left: 24%;
     top: 71%;
+    width: 6vw;
+    height: 6vw;
+    background-image: url(../img/element7.svg);
+    background-size: 100% 100%;
     animation: dropblack7 3.4s infinite ease-out;
 }
 .element8 {
     position: absolute;
     left: 35%;
     top: 65%;
+    width: 9vw;
+    height: 9vw;
+    background-image: url(../img/element8.svg);
+    background-size: 100% 100%;
     animation: dropblack8 3s infinite ease-in-out;
 }
 .element9 {
     position: absolute;
     left: 47%;
     top: 82%;
+    width: 5.7vw;
+    height: 5.7vw;
+    background-image: url(../img/element9.svg);
+    background-size: 100% 100%;
     animation: dropblack9 2s infinite ease-in-out;
 }
 .element10 {
     position: absolute;
     left: 52%;
     top: 36%;
+    width: 7vw;
+    height: 7vw;
+    background-image: url(../img/element10.svg);
+    background-size: 100% 100%;
     animation: dropblack10 5s infinite ease-in-out;   
 }
 .element11 {
     position: absolute;
     left: 60%;
     top: 70%;
+    width: 5vw;
+    height: 5vw;
+    background-image: url(../img/element11.svg);
+    background-size: 100% 100%;
     animation: dropblack11 2s infinite ease-out;
 }
 .element12 {
     position: absolute;
     left: 57%;
+    top: -3%;
+    width: 9vw;
+    height: 9vw;
+    background-image: url(../img/element12.svg);
+    background-size: 100% 100%;
     animation: dropblack12 2.5s infinite ease-in-out;
 }
 .element13 {
     position: absolute;
     left: 67%;
     top: 8%;
-    animation: dropblack13 5s infinite ease-in-out;
+    width: 14.7vw;
+    height: 14.7vw;
+    background-image: url(../img/element13.svg);
+    background-size: 100% 100%;
+    animation: dropblack13 4s infinite ease-in-out;
 }
 .element14 {
     position: absolute;
     left: 73%;
     top: 58%;
+    width: 11.8vw;
+    height: 11.8vw;
+    background-image: url(../img/element14.svg);
+    background-size: 100% 100%;
     animation: dropblack14 3.4s infinite ease-out;
 }
 .element15 {
     position: absolute;
     left: 86%;
     top: 46%;
+    width: 7vw;
+    height: 7vw;
+    background-image: url(../img/element15.svg);
+    background-size: 100% 100%;
     animation: dropblack3 2s infinite ease-out;
 }
-
-
 .gl1 {
     position: absolute;
     left: 6%;
     top: 1%;
-    backdrop-filter: blur(5px);
-    transform: rotateZ(25deg);
-    animation: dropping1 5s infinite ease-out;
+    width: 9vw;
+    height: 21vw;
+    backdrop-filter: blur(2vw);
+    animation: dropping1 4s infinite ease-out;
 }
 .gl2 {
     position: absolute;
     left: 9%;
     top: 67%;
-    backdrop-filter: blur(4px);
-    /* transform: rotateZ(40deg); */
-    animation: dropping2 7s infinite ease-out;
+    width: 4vw;
+    height: 13vw;
+    backdrop-filter: blur(2vw);
+    animation: dropping2 5s infinite ease-out;
 }
 .gl3 {
     position: absolute;
     left: 27%;
     top: 42%;
-    backdrop-filter: blur(4px);
+    width: 4vw;
+    height: 22vw;
+    backdrop-filter: blur(2vw);
     transform: rotateZ(150deg);
     animation: dropping3 4s infinite ease-out;
 }
@@ -147,14 +212,18 @@
     position: absolute;
     left: 582px;
     top: 209px;
-    backdrop-filter: blur(4px);
+    width: 8vw;
+    height: 21vw;
+    backdrop-filter: blur(2vw);
     animation: dropping4 2.5s infinite ease-out;
 }
 .gl5 {
     position: absolute;
     left: 40%;
     top: -25%;
-    backdrop-filter: blur(4px);
+    width: 4vw;
+    height: 22vw;
+    backdrop-filter: blur(2vw);
     transform: rotateZ(27deg);
     animation: dropping5 3s infinite ease-out;
 }
@@ -162,7 +231,9 @@
     position: absolute;
     left: 56%;
     top: 28%;
-    backdrop-filter: blur(4px);
+    width: 5vw;
+    height: 13vw;
+    backdrop-filter: blur(2vw);
     transform: rotateZ(160deg);
     animation: dropping6 2s infinite ease-out;
 }
@@ -170,7 +241,9 @@
     position: absolute;
     left: 65%;
     top: 57%;
-    backdrop-filter: blur(4px);
+    width: 3.5vw; 
+    height: 17vw;
+    backdrop-filter: blur(2vw);
     transform: rotateZ(-100deg);
     animation: dropping7 3s infinite ease-out;
 }
@@ -178,28 +251,33 @@
     position: absolute;
     left: 70%;
     top: -10%;
-    backdrop-filter: blur(4px);
+    width: 9vw;
+    height: 21vw;
+    backdrop-filter: blur(2vw);
     transform: rotateZ(150deg);
-    animation: dropping8 2s infinite ease-out;
+    animation: dropping8 4s infinite ease-out;
 }
 .gl9 {
     position: absolute;
     left: 87%;
     top: 35%;
-    backdrop-filter: blur(4px);
+    width: 4vw;
+    height: 13vw;
+    backdrop-filter: blur(2vw);
     transform: rotateZ(-150deg);
     animation: dropping9 3s infinite ease-out;
 }
 .object:hover {
     animation-play-state: paused;
 }
+
 /* блок с глазами */
 .eyes {
     position: relative;
     left: 0;
     top: 0;
     width: 100%;
-    height: 65vh;
+    height: 44vw;
     background-color: #AEFF00;
     overflow: hidden;
 }
@@ -208,19 +286,17 @@
     left: -3%;
     top: 1%;
     width: 13vw;
-    height: 23vh;
+    height: 13vw;
     animation: eye1 1s alternate-reverse infinite;
     background-image: url(../img/eye1.svg);
     background-size: 100% 100%;
 }
-
-
 .eye2 {
     position: absolute;
     left: 1%;
     top: 9%;
     width: 33vw;
-    height: 59vh;
+    height: 33vw;;
     animation: eye2 3s alternate-reverse ease-in-out infinite;
     background-image: url(../img/eye2.svg);
     background-size: 100% 100%;
@@ -233,7 +309,7 @@
     left: 33%;
     top: -6%;
     width: 22vw;
-    height: 39.5vh;
+    height: 22vw;
     animation: eye3 1s alternate-reverse infinite;
     background-image: url(../img/eye3.svg);
     background-size: 100% 100%;
@@ -243,7 +319,7 @@
     left: 35%;
     top: 68%;
     width: 13vw;
-    height: 23vh;
+    height: 13vw;
     animation: eye4 1.5s alternate-reverse infinite;
     background-image: url(../img/eye4.svg);
     background-size: 100% 100%;
@@ -253,7 +329,7 @@
     left: 52%;
     top: 46%;
     width: 14.5vw;
-    height: 26vh;
+    height: 14.5vw;
     animation: eye5 2s alternate-reverse infinite;
     background-image: url(../img/eye5.svg);
     background-size: 100% 100%;
@@ -265,8 +341,8 @@
     position: absolute;
     left: 61%;
     top: 11%;
-    width: 10.3vw;
-    height: 18.5vh;
+    width: 10vw;
+    height: 10vw;
     animation: eye6 2s infinite linear;
     background-image: url(../img/eye6.svg);
     background-size: 100% 100%;
@@ -275,8 +351,8 @@
     position: absolute;
     left: 68%;
     top: 27%;
-    width: 24.5vw;
-    height: 43.5vh;
+    width: 25vw;
+    height: 25vw;
     animation: eye7 1s infinite linear;
     background-image: url(../img/eye7.svg);
     background-size: 100% 100%;
@@ -286,7 +362,7 @@
     left: 81%;
     top: 2%;
     width: 12vw;
-    height: 21.8vh;
+    height: 12vw;
     animation: eye8 1s alternate infinite linear;
     background-image: url(../img/eye8.svg);
     background-size: 100% 100%;
@@ -297,13 +373,14 @@
 
 
 /* секция с буквами */
+
 .rightpart {
     overflow: hidden;
     position: relative;
     left: 0;
     top: 0;
     width: 25%;
-    height: 125vh;
+    height: 70vw;
     background-color: #D9D9D9;
     background-image: url(../img/grid.svg);
     background-size: 100% 100%;
@@ -418,14 +495,17 @@
 .l2 {
     animation-delay: .7s
 }
+
 /* черные кляксы */
 .blackmarks {
     top: 0;
     left: 0;
     position: relative;
     width: 100%;
-    height: 125vh;
+    height: 70vw;
+    overflow: hidden;
 }
+
 .liq {
     position: absolute;
     display: flex;
@@ -435,7 +515,7 @@
     left: 50%;
     transform: translate(-50%, -50%) rotate(0deg);
     animation: liqrotate 15s linear infinite;
-    filter: blur(15px) contrast(10);
+    filter: blur(1vw) contrast(10);
 }
 .liq:hover {
     animation-play-state: paused;
@@ -447,7 +527,6 @@
     height: 13vw;
     border-radius: 50%;
 }
-
 .liquids:first-child,
 .liquids:last-child {
     width: 20%;
@@ -484,8 +563,12 @@
     position: absolute;
     left: 16%;
     top: 8%;
-    animation: bm1-a 7s infinite linear ;
-    filter: blur(15px) contrast(10);
+    width: 12vw;
+    height: 12vw;
+    background-image: url(../img/bm1.svg);
+    background-size: 100% 100%;
+    animation: bm1-a 7s infinite linear;
+    filter: blur(1vw) contrast(10);
 }
 .bm1:hover {
     animation-play-state: paused;
@@ -495,8 +578,12 @@
     position: absolute;
     left: 16%;
     top: 8%;
+    width: 28vw;
+    height: 34vw;
+    background-image: url(../img/bm2.svg);
+    background-size: 100% 100%;
     animation: bm2-a 8s infinite linear;
-    filter: blur(15px) contrast(10);
+    filter: blur(1vw) contrast(10);
 }
 .bm2:hover {
     animation-play-state: paused;
@@ -506,37 +593,43 @@
     position: absolute;
     left: 0;
     top: 5%;
+    width: 24vw;
+    height: 35vw;
+    background-image: url(../img/bm3.svg);
+    background-size: 100% 100%;
     animation: bm3-a 4s infinite linear;
-    filter: blur(15px) contrast(10);
+    filter: blur(1vw) contrast(10);
 }
 .bm3:hover {
     animation-play-state: paused;
     animation: blowaway 1s ease-in-out;
 }
 
+
 /* второй экран */
 .screen2 {
     display: flex;
-    width: 100%;
-    height: 98vh;
+    width: 100vw;
+    height: 56vw;
+    overflow: hidden;
 }
-
 .visiontest {
     top: 0;
     left: 0;
     position: relative;
-    width: 37.3%;
-    height: 98vh;
+    width: 38vw;
+    height: 56vw;
 }
-
 .e1 {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    height: 98vh;
+    height: 100%;
     background-image: url(../img/e1.svg);
-    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
     z-index: 2;
 }
 .e2 {
@@ -544,57 +637,60 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 98vh;
+    height: 100%;
     background-image: url(../img/e2.svg);
-    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
 }
 
 .e1:hover {
-    animation: opacity 1s forwards;
+   opacity: 0;
+    transition: 0.9s;
 }
 
 .smotrivoba {
-    width: 63.7%;
-    height: 98.2vh;
+    width: 62vw;
+    height: 100%;
     background-color: #AEFF00;
     position: relative;
     overflow: hidden;
 }
-
 .faceblock {
+    overflow: hidden;
     position: absolute;
     top: 0;
     left: 0;
-    width: 8638px;
-    height: 98.2vh;
+    width: 62.5vw;
+    height: 56vw;
     background-image: url(../img/faceblock.svg);
-    background-position: 0 0;
     background-repeat: no-repeat;
+    background-position: -1vw 0;
+    background-size: 437.5vw 56vw;
     animation: erase 2s steps(1) infinite;
 }
-
-
 .smotrivoba p {
     font-family: 'PP Neue Montreal';
     font-weight: 700;
     font-size: 14vw;
     text-transform: uppercase;
     text-align: center;
-    margin: 27vh 1.2vw;
+    margin-top: 15vw;
 }
 
 /* третий экран */
 .screen3 {
     width: 100%;
-    height: 90vh;
+    height: 47.8vw;
     background-color: #E7E7E7;
+    overflow: hidden;
 }
 
 .runline {
     position: relative;
     top: 0;
     left: 0;
-    height: 20vh;
+    height: 12vw;
     width: 100%;
     background-color: #000;
 }
@@ -602,7 +698,7 @@
 .runp {
     position: absolute;
     top: 0;
-    margin-top: 3%;
+    margin-top: 3.5%;
     display: flex;
     overflow: hidden;
     width: 105%;
@@ -619,14 +715,14 @@
     margin-left: 1%;
 }
 
-
 .screenblocks3 {
     display: flex;
     width: 100%;
+    overflow: hidden;
 }
 .pupils {
     width: 53%;
-    height: 70vh;
+    height: 36vw;
     position: relative;
     top: 0;
     left: 0;
@@ -634,10 +730,12 @@
 }
 .pup1 {
     position: absolute;
-    top: -2vw;
+    top: -4vw;
     left: -8vw;
     width: 28.6vw;
-    height: 51vh;
+    height: 28.6vw;
+    background-image: url(../img/pup1.svg);
+    background-size: 100% 100%;
     animation: pup1 2s infinite linear;
 }
 .pup2 {
@@ -645,7 +743,9 @@
     top: 16vw;
     left: -4vw;
     width: 28.6vw;
-    height: 51vh;
+    height: 28.6vw;
+    background-image: url(../img/pup2.svg);
+    background-size: 100% 100%;
     animation: pup2 2s infinite linear;
 }
 .pup3 {
@@ -653,7 +753,9 @@
     top: -15%;
     left: 8%;
     width: 33.6vw;
-    height: 60vh;
+    height: 33.6vw;
+    background-image: url(../img/pup3.svg);
+    background-size: 100% 100%;
     animation: pup2 2s infinite linear;
 }
 .pup4 {
@@ -661,7 +763,9 @@
     top: 55%;
     left: 20%;
     width: 24.7vw;
-    height: 44vh;
+    height: 24.7vw;
+    background-image: url(../img/pup4.svg);
+    background-size: 100% 100%;
     animation: pup1 3s infinite linear;
 }
 .pup5 {
@@ -669,7 +773,9 @@
     top: -25%;
     left: 40%;
     width: 29vw;
-    height: 51.5vh;
+    height: 29vw;
+    background-image: url(../img/pup5.svg);
+    background-size: 100% 100%;
     animation: pup2 2s infinite linear;
 }
 .pup6 {
@@ -677,7 +783,9 @@
     top: 20%;
     left: 40%;
     width: 29vw;
-    height: 51.5vh;
+    height: 29vw;
+    background-image: url(../img/pup6.svg);
+    background-size: 100% 100%;
     animation: pup1 1.5s infinite linear;
 }
 .pup7 {
@@ -685,7 +793,9 @@
     top: 68%;
     left: 51%;
     width: 18.5vw;
-    height: 33vh;
+    height: 18.5vw;
+    background-image: url(../img/pup7.svg);
+    background-size: 100% 100%;
     animation: pup2 2s infinite linear;
 }
 .pup8 {
@@ -693,7 +803,9 @@
     top: -20%;
     left: 70%;
     width: 29vw;
-    height: 51.5vh;
+    height: 29vw;
+    background-image: url(../img/pup8.svg);
+    background-size: 100% 100%;
     animation: pup1 2s infinite linear;
 }
 .pup9 {
@@ -701,51 +813,50 @@
     top: 35%;
     left: 70%;
     width: 29.5vw;
-    height: 52.4vh;
+    height: 29.5vw;
+    background-image: url(../img/pup9.svg);
+    background-size: 100% 100%;
     animation: pup1 1.5s infinite linear;
 }
-
 .vessels {
     position: relative;
     top: 0;
     left: 0;
     background-color: #464646;
-    width: 57%;
+    width: 47.5vw;
+    height: 36vw;
     overflow: hidden;
-    height: 70vh;
-}
-.backvessels {
-    top: 0;
-    left: 0;
-    position: absolute;
 }
 
 .vessel1 {
     z-index: 1;
     position: absolute;
-    width: 52.3vw;
-    height: 70vh;
+    width: 47.5vw;
+    height: 36vw;
+    background-image: url(../img/vessels1.svg);
+    background-size: 100% 100%;;
     animation: translate 1s infinite linear;
 }
 .vessel2 {
     z-index: 2;
     position: absolute;
-    width: 52.3vw;
-    height: 70vh;
+    width: 30vw;
+    height: 30vw;
+    background-image: url(../img/vessels2.svg);
+    background-size: 100% 100%;
     animation: scalevessel 3s infinite linear;
 }
-
-
 .roundinvert {
     position: absolute;
     top: 12%;
     left: 15%;
-    width: 560px;
-    height: 560px;
+    width: 29vw;
+    height: 29vw;
+    border-radius: 50%;
     opacity: 0.7;
-    color: #eeeeee;
+    background: #D9D9D9;
     z-index: 3;
-    animation: translate2 4s infinite linear;
+    animation: translate2 3s infinite linear;
 }
 .roundinvert:hover {
     animation-play-state: paused;
@@ -754,8 +865,9 @@
 /* четвертый экран */
 .screen4 {
     width: 100%;
-    height: 90vh;
+    height: 49vw;
     display: flex;
+    overflow: hidden;
 }
 .eye-aim {
     width: 45%;
@@ -764,66 +876,116 @@
     left: 0;
     position: relative;
     background-color: #AEFF00;
+    overflow: hidden;
 }
 .eye {
     position: absolute;
-    top: 2%;
-    left: 2%;
+    top: 15%;
+    left: 5%;
     width: 28.5vw;
-    height: 50.7vw;
+    height: 28.5vw;
     background-image: url(../img/eye-aim.svg);
     background-size: 100% 100%;
+    animation: eyerun 3s infinite linear;
 }
 .aim {
     position: absolute;
-    top: 11.7vw;
-    left: 13vh;
+    top: 12vw;
+    left: 12vw;
     width: 29vw;
-    height: 51.5vh;
-    backdrop-filter: blur(3px);
+    height: 29vw;
     background-image: url(../img/aim.svg);
     background-size: 100% 100%;
+    animation: aimrun 3.2s infinite linear;
 }
+
 .glitchblock {
     top: 0;
     left: 0;
     position: relative;
-    width: 55%;
-    height: 100%;
+    width: 57vw;
+    height: 49vw;
     background-color: #D9D9D9;
     overflow: hidden;
 }
 .back {
-    position: relative;
-    top: -10%;
-    left: -5%;
-}
-.glitch {
     position: absolute;
     top: 0;
     left: 0;
+    width: 57vw;
+    height: 49vw;
+    overflow: hidden;
+    animation: scaleback 3.5s infinite linear;
+    background-image: url(../img/glitchback.svg);
+    background-size: 100% 100%;
+    background-position: 60%, 0;
+
+}      
+.glitch {
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    width: 57vw;
+    height: 49vw;
+    background-image: url(../img/glitch.svg);
+    background-size: 120% 120%;
+    background-position: 60%, 0;
+    animation: glitch 0.3s linear infinite;
+}
+.glitch2 {
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    width: 57vw;
+    height: 49vw;
+    background-image: url(../img/glitch2.svg);
+    opacity: 0.3;
+    background-size: 120% 120%;
+    background-position: 60%, 0;
+    animation: glitch2 0.4s linear infinite;
 }
 
 /* подвал */
 .bottom {
     width: 100%;
-    height: 20vh;
+    height: 14vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #000;
+    position: relative;
+}
+.blur {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 14vw;
+    backdrop-filter: blur(4vw);
+}
+.blur:hover {
+    opacity: 0;
+    transition: 0.9s;
 }
 .name {
-    width: 23%;
-    margin-right: 73px;
+    width: 23vw;
+    height: 7vw;
+    margin-right: 4vw;
 }
 .logo {
-    margin-left: 73px;
+    margin-left: 4vw;
+    width: 17vw;
+    height: 7vw;
+    background-image: url(../img/logo.svg);
+    background-size: 100% 100%;
 }
 .name p {
     font-family: 'PP Neue Montreal';
     font-weight: 700;
-    font-size: 40px;
+    font-size: 2vw;
     text-transform: uppercase;
     color: white;
 }
+
