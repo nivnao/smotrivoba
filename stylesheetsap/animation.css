@@ -556,24 +556,24 @@
     0% {
         background-position: 0 0,
     }
-    14.3% {
-        background-position: -63.2vw 0;
+     14.3% {
+        background-position: -62.5vw 0;
     }
     28.6% {
-        background-position: -125.5vw 0;
+        background-position: -125vw 0;
     }
     42.9% {
-        background-position: -187.7vw 0;
+        background-position: -187.5vw 0;
     } 
     57.2% {
-        background-position: -249.9vw 0;
-    }
+        background-position: -250vw 0;
+    } 
     71.5%  {
-        background-position: -312.1vw 0;
+        background-position: -312.5vw 0;
     }
     85.8%  {
-        background-position: -374.4vw 0;
-    } 
+        background-position: -375vw 0;
+    }  
 }
 
 /* анимация бегущая строка */
@@ -707,3 +707,4 @@
         transform: translate(0 0);
     }
 }
+

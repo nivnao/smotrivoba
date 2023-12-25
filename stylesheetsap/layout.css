@@ -14,7 +14,7 @@
 .leftpart {
     display: flex;
     flex-direction: column;
-    width: 75%;
+    width: 75vw;
     height: 70vw;
 }
 
@@ -616,7 +616,7 @@
     top: 0;
     left: 0;
     position: relative;
-    width: 38vw;
+    width: 37.5vw;
     height: 56vw;
 }
 .e1 {
@@ -649,25 +649,28 @@
 }
 
 .smotrivoba {
-    width: 62vw;
+    width: 62.5vw;
     height: 100%;
     background-color: #AEFF00;
     position: relative;
+    top: 0;
+    left: 0;
     overflow: hidden;
 }
 .faceblock {
-    overflow: hidden;
     position: absolute;
+    overflow: hidden;
     top: 0;
     left: 0;
     width: 62.5vw;
     height: 56vw;
     background-image: url(../img/faceblock.svg);
+    background-position: 0 0;
     background-repeat: no-repeat;
-    background-position: -1vw 0;
-    background-size: 437.5vw 56vw;
+    background-size: 437.5vw, 56vw;
     animation: erase 2s steps(1) infinite;
 }
+
 .smotrivoba p {
     font-family: 'PP Neue Montreal';
     font-weight: 700;
@@ -679,7 +682,7 @@
 
 /* третий экран */
 .screen3 {
-    width: 100%;
+    width: 100vw;
     height: 47.8vw;
     background-color: #E7E7E7;
     overflow: hidden;
@@ -692,6 +695,7 @@
     height: 12vw;
     width: 100%;
     background-color: #000;
+    overflow: hidden;
 }
 
 .runp {
@@ -716,11 +720,11 @@
 
 .screenblocks3 {
     display: flex;
-    width: 100%;
+    width: 100vw;
     overflow: hidden;
 }
 .pupils {
-    width: 53%;
+    width: 52vw;
     height: 36vw;
     position: relative;
     top: 0;
@@ -822,7 +826,7 @@
     top: 0;
     left: 0;
     background-color: #464646;
-    width: 47.5vw;
+    width: 48vw;
     height: 36vw;
     overflow: hidden;
 }
@@ -863,7 +867,7 @@
 
 /* четвертый экран */
 .screen4 {
-    width: 100%;
+    width: 100vw;
     height: 49vw;
     display: flex;
     overflow: hidden;
@@ -895,7 +899,11 @@
     height: 29vw;
     background-image: url(../img/aim.svg);
     background-size: 100% 100%;
-    animation: aimrun 3.2s infinite linear;
+    animation: aimrun 3.1s infinite linear;
+}
+
+.aim:hover {
+    animation-play-state: paused;
 }
 
 .glitchblock {
@@ -946,10 +954,11 @@
     animation: glitch2 0.4s linear infinite;
 }
 
+
 /* подвал */
 .bottom {
-    width: 100%;
-    height: 14vw;
+    width: 100vw;
+    height: 10vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -960,8 +969,8 @@
     position: absolute;
     left: 0;
     top: 0;
-    width: 100%;
-    height: 14vw;
+    width: 100vw;
+    height: 10vw;
     backdrop-filter: blur(4vw);
 }
 .blur:hover {
@@ -969,22 +978,23 @@
     transition: 0.9s;
 }
 .name {
-    width: 23vw;
-    height: 7vw;
-    margin-right: 4vw;
+    width: 18.3vw;
+    height: 3.4vw;
+    margin-right: 1vw;
 }
 .logo {
-    margin-left: 4vw;
-    width: 17vw;
-    height: 7vw;
+    margin-left: 1vw;
+    width: 12vw;
+    height: 4vw;
     background-image: url(../img/logo.svg);
     background-size: 100% 100%;
 }
 .name p {
     font-family: 'PP Neue Montreal';
     font-weight: 700;
-    font-size: 2vw;
+    font-size: 1.5vw;
     text-transform: uppercase;
+    line-height: 117%;
     color: white;
 }
 
