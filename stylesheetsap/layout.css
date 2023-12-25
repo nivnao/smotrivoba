@@ -7,9 +7,8 @@
 /* первый экран */
 .screen1 {
     display: flex;
-    width: 100%;
+    width: 100vw;
     height: 70vw;
-    margin: 0 auto;
     overflow: hidden;
 }
 .leftpart {
