@@ -550,13 +550,12 @@
     
 }
 
-
 /* анимация стирания слоя*/
 @keyframes erase {
     0% {
         background-position: 0 0,
     }
-     14.3% {
+    14.3% {
         background-position: -62.5vw 0;
     }
     28.6% {

@@ -1,22 +1,403 @@
 /* адаптив для мобилки */
-@media only screen and (min-device-width: 360px) and (max-device-width: 430px) {
+@media only screen and (min-device-width: 360px) and (max-device-width: 414px) {
     .screen1 {
         flex-direction: column;
         max-width: 100vw;
+        height: 305vw;
     }
     .leftpart {
         width: 100%;
+        height: 160vw;
+    }
+    .fragments {
+        width: 100%;
+        height: 97vw;
+    }
+    .eyes {
+        width: 100%;
+        height: 63vw;
     }
     .rightpart {
-        max-width: 100vw;
+        width: 100vw;
+        height: 148vw;
+        background-image: url(../img/gridadaptive.svg);
+        background-size: 100% 100%;
+        background-position: cover;
+    }
+    .element1,
+    .element4,
+    .element8,
+    .element12 {
+        width: 15vw;
+        height: 15vw;
+    }
+    .element2,
+    .element7,
+    .element9 {
+        width: 12vw;
+        height: 12vw;
+    }
+    .element3,
+    .element6 {
+        width: 15vw;
+        height: 15vw;
+    }
+    .element5 {
+        width: 38мw;
+        height: 38vw;
+    }
+
+    .element10,
+    .element15 {
+        width: 28vw;
+        height: 28vw;  
+    }
+    .element11 {
+        width: 14vw;
+        height: 14vw;
+    }
+
+    .element13 {
+        width: 26vw;
+        height: 26vw;
+    }
+    .element14 {
+        width: 34vw;
+        height: 34vw;
+    }
+    .gl1 {
+        width: 12vw;
+        height: 31vw;
+    }
+    .gl2 {
+        width: 8vw;
+        height: 26vw;
+    }
+    .gl3 {
+        width: 10vw;
+        height: 27vw;
+    }
+    .gl4 {
+        width: 14vw;
+        height: 20vw;
+    }
+    .gl5 {
+        width: 9vw;
+        height: 18vw;
+    }
+    .gl6 {
+        width: 18vw;
+        height: 25vw;
+    }
+    .gl7 {
+        width: 23vw; 
+        height: 17vw;
+    }
+    .gl8 {
+        width: 16vw;
+        height: 45vw;
+    }
+    .gl9 {
+        width: 15vw;
+        height: 13vw;
+    }
+
+    .eye1,
+    .eye4 {
+        width: 19vw;
+        height: 19vw;
+    }
+    .eye2 {
+        width: 50vw;
+        height: 50vw;;
+    }
+    .eye3 {
+        width: 28vw;
+        height: 28vw;
+    }
+    .eye5 {
+        width: 21vw;
+        height: 21vw;
+    }
+
+    .eye6 {
+        width: 16vw;
+        height: 16vw;
+    }
+    .eye7 {
+        width: 31vw;
+        height: 31vw;
+    }
+    .eye8 {
+        width: 18vw;
+        height: 18vw;
+    }
+
+    .blackmarks {
+        width: 100vw;
+        height: 148vw;
+        }
+    .liquids {
+        width: 60vw;
+        height: 47vw;
+        border-radius: 50%;
+    }
+    .liq {
+        filter: blur(4vw);
+    }
+    .l1,
+    .l2 {
+        font-size: 12.8vw;
+    }
+    
+    .l3,
+    .l4,
+    .l5 {
+        font-size: 17vw;
+    }
+    
+    .l6,
+    .l7,
+    .l8,
+    .l9 {
+        font-size: 6.9vw;
+    }
+    
+    .l10 {
+        font-size: 8.5vw;
+    }
+    .bm2 {
+        width: 40vw;
+        height: 50vw;
+        filter: blur(2vw);
+    }
+    .bm3 {
+        width: 35vw;
+        height: 45vw;
+        filter: blur(2vw);
     }
     .screen2 {
         flex-direction: column;
+        width: 100vw;
+        height: 191vw;
     }
+    .visiontest {
+        width: 100vw;
+        height: 100vw;
+    }
+    .smotrivoba {
+        width: 100vw;
+        height: 92vw;
+    }
+    .faceblock {
+        width: 100vw;
+        height: 92vw;
+        background-image: url(../img/faceblockadaptive.svg);
+        background-repeat: no-repeat;
+        background-size: 700vw 92vw;
+        animation: erase 2s steps(1) infinite;
+    }
+
+    @keyframes erase {
+        0% {
+            background-position: 0 0,
+        }
+        14.3% {
+            background-position: -100vw 0;
+        }
+         28.6% {
+            background-position: -200vw, 0;
+        }  
+         42.9% {
+            background-position: -300vw 0;
+        } 
+        57.2% {
+            background-position: -400vw 0;
+        } 
+        71.5%  {
+            background-position: -500vw 0;
+        }
+        85.8%  {
+            background-position: -600vw 0;
+        }     
+    }
+    .smotrivoba p {
+        font-size: 20vw;
+        margin-top: 27vw;
+    }
+    .screen3 {
+        width: 100vw;
+        height: 147vw;
+    }
+
     .screenblocks3 {
         flex-direction: column;
+        width: 100vw;
+        height: 135vw;
     }
-    .screen4 {
-        flex-direction: column;
+    .pupils {
+        width: 100vw;
+        height: 60vw;
+    }
+    .pup1 {
+        width: 40vw;
+        height: 40vw;
+    }
+    .pup2,
+    .pup5,
+    .pup6,
+    .pup8 {
+        width: 60vw;
+        height: 60vw;    
+    }
+    .pup2 {
+        left: -7vw;
+    }
+    .pup6 {
+        top: 10vw;
+        left: 30vw;
+    }
+    .pup3 {
+        width: 48vw;
+        height: 48vw;    
+    }  
+    .pup4 {
+        width: 45vw;
+        height: 45vw;    
+    }  
+    .pup7 {
+        width: 35vw;
+        height: 35vw;    
+    } 
+    .pup9 {
+        width: 42vw;
+        height: 42vw;   
+        top: 37vw; 
+    }  
+    .vessels {
+        width: 100vw;
+        height: 75vw;
+    }
+    .vessel1 {
+        width: 100vw;
+        height: 75vw;
+        background-image: url(../img/vessels1.svg);
+        background-size: 100% 100%;
+    }
+    .vessel2 {
+        width: 100vw;
+        height: 75vw;
+        background-image: url(../img/vessels2.svg);
+        background-size: 100% 100%;
+    }
+    .roundinvert {
+        width: 45vw;
+        height: 45vw;
+    }
+    @keyframes translate2 {
+    0% {
+        transform: translate(30%, -20%);
+    }
+    30% {
+        transform: translate(-50%, -5%);
+    }
+    45% {
+        transform: translate(30%, -30%);
+    }
+    60% {
+        transform: translate(95%, 35%);
+    }
+    85% {
+        transform: translate(20%, 45%);
+    }
+    100% {
+        transform: translate(30%, -20%);
+    }
+    }
+    .screen4 { 
+        width: 100vw;
+        height: 74vw;
+    }
+    .eye-aim {
+        width: 54vw;
+        height: 74vw;
+    }
+    .eye {
+        width: 36vw;
+        height: 36vw;
+        background-image: url(../img/eye-aim.svg);
+        background-size: 100% 100%;
+    }
+    .aim {
+        width: 37vw;
+        height: 37vw;
+        background-image: url(../img/aim.svg);
+        background-size: 100% 100%;
+    }
+
+    .glitchblock {
+        width: 46vw;
+        height: 74vw;
+    }
+    .back {
+        width: 46vw;
+        height: 74vw;
+        background-image: url(../img/glitchback.svg);
+        background-size: 100% 100%;
+        background-position: 60%, 0;
+    }      
+    .glitch {
+        width: 46vw;
+        height: 74vw;
+        background-image: url(../img/glitchadaptive1.svg);
+        background-size: 100% 100%;
+        background-position: 60%, 0;
+    }
+    .glitch2 {
+        width: 46vw;
+        height: 74vw;
+        background-image: url(../img/glitchadaptive2.svg);
+        background-size: 120% 120%;
+        background-position: 60%, 0;
+    }
+    .bottom {
+        width: 100vw;
+        height: 13vw;
+    }
+    .blur {
+        width: 100vw;
+        height: 13vw;
+        backdrop-filter: blur(6vw);
+    }
+
+    .name {
+        width: 27vw;
+        height: 5vw;
+        margin-right: 2.5vw;
+    }
+
+    .logo {
+        margin-left: 2.5vw;
+        width: 17vw;
+        height: 7vw;
+        background-image: url(../img/logo.svg);
+        background-size: 100% 100%;
+    }
+    .name p {
+        font-size: 2.5vw;
+    }
+    @keyframes eyerun {
+        0% {
+            transform: translate(-10%, 0);
+        }
+        25% {
+            transform: translate(50%, -30%);
+        }
+        50% {
+            transform: translate(30%, 80%);
+        }
+        100% {
+            transform: translate(-10%, 0);
+        }
     }
 }

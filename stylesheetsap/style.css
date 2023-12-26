@@ -1,7 +1,7 @@
 @import url('reset.css');
-@import url('responsive.css');
 @import url('layout.css');
 @import url('animation.css');
+@import url('responsive.css');
 @font-face {
     font-family: 'PP Neue Montreal';
     font-style: normal;
